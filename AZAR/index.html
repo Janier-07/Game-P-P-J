@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Piedra, Papel, Tijera</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Pangolin&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    
+    <h1 class="v">VAMOS A JUGAR</h1>
+    <h1 class="p">Piedra, Papel, Tijera</h1>
+    <h1>ELIGE TU ARMA SOLDADO</h1>
+    <div class="opcion">
+        <button class="option" id="piedra"><img class="opciones" src="../AZAR/piedrita.png" alt=""></button>
+        <button class="option" id="papel"><img class="opciones" src="../AZAR/papelito.png" alt=""></button>
+        <button class="option" id="tijera"><img class="opciones" src="../AZAR/tijerita.png" alt=""></button>
+    </div>
+    
+    <div class="result">
+        <p class="me">Elegiste <span id="userChoice"></span></p>
+        <p class="machine">La máquina eligió <span id="computerChoice"></span></p>
+        <h2 id="resultText"></h2>
+    </div>
+    <script src="funciones.js"></script>
+
+
+    <div>
+        
+        <span class="border-top"></span>
+        <span class="border-right"></span>
+        <span class="border-bottom"></span>
+        <span class="border-left"></span>
+    </div>
+</body>
+</html>
